@@ -1,4 +1,6 @@
 import {
+  Viro3DObject,
+  ViroAmbientLight,
   ViroARScene,
   ViroARSceneNavigator,
   ViroText,
@@ -25,8 +27,24 @@ const HelloWorldSceneAR = () => {
       <ViroText
         text={text}
         scale={[0.5, 0.5, 0.5]}
-        position={[0, 0, -1]}
+        position={[0, 0.2, -1]}
         style={styles.helloWorldTextStyle}
+      />
+      <ViroAmbientLight color={"#aaaaaa"} />
+      <Viro3DObject
+        source={require("./3Dmodels/object_pug_animated/pug_animated.vrx")}
+        type="VRX"
+        position={[0, -2, -5]}
+        scale={[1, 1, 1]}
+        rotation={[0, 0, 0]}
+        dragType="FixedToWorld"
+        onDrag={() => {}}
+        animation={{
+          name: "Take 001",
+          run: true,
+          loop: true,
+          delay: 1000,
+        }}
       />
     </ViroARScene>
   );
