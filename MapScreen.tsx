@@ -14,19 +14,19 @@ const App = () => {
         <MapView
           style={styles.mapStyle}
           initialRegion={{
-            latitude: 37.78825,
-            longitude: -122.4324,
-            latitudeDelta: 0.0922,
-            longitudeDelta: 0.0421,
+            latitude: 53.48187430107343,
+            longitude: -2.2408551764254514,
+            latitudeDelta: 0.01,
+            longitudeDelta: 0.01,
           }}
           customMapStyle={mapStyle}
         >
           <Marker
             coordinate={{
-              latitude: 37.78825,
-              longitude: -122.4324,
+              latitude: 53.48187430107343,
+              longitude: -2.2408551764254514,
             }}
-            title={"Test Marker"}
+            title={"Northcoders"}
             description={"This is a description of the marker"}
           />
         </MapView>
