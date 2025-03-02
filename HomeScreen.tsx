@@ -12,6 +12,7 @@ export default function HomeScreen() {
         onPress={() => navigation.navigate("Test")}
       />
       <Button title="To AR" onPress={() => navigation.navigate("AR")} />
+      <Button title="To Map" onPress={() => navigation.navigate("Map")} />
     </View>
   );
 }
