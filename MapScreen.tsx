@@ -7,7 +7,7 @@ import { SafeAreaView, StyleSheet, View } from "react-native";
 // Import Map and Marker
 import MapView, { Marker } from "react-native-maps";
 
-const App = () => {
+export default function MapScreen() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.container}>
@@ -16,8 +16,8 @@ const App = () => {
           initialRegion={{
             latitude: 53.48187430107343,
             longitude: -2.2408551764254514,
-            latitudeDelta: 0.01,
-            longitudeDelta: 0.01,
+            latitudeDelta: 0.03,
+            longitudeDelta: 0.03,
           }}
           customMapStyle={mapStyle}
         >
@@ -33,8 +33,8 @@ const App = () => {
       </View>
     </SafeAreaView>
   );
-};
-export default App;
+}
+
 const mapStyle = [
   {
     elementType: "geometry",
