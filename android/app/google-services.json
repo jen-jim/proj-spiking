@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "756944899954",
+    "project_id": "awesome-project-test-android",
+    "storage_bucket": "awesome-project-test-android.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756944899954:android:26590a388bb3d8edd7d7eb",
+        "android_client_info": {
+          "package_name": "com.awesomeproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3G0oc0EzsUc7j70SLMXcDmUvRBhSq9-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756944899954:android:e639c067a02edd32d7d7eb",
+        "android_client_info": {
+          "package_name": "com.virostarterkit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3G0oc0EzsUc7j70SLMXcDmUvRBhSq9-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
